@@ -85,6 +85,7 @@ export default function NavBar({ paginaActual }) {
                   }
                 >
                   <p>Contact</p>
+                  {/* <p>Contact</p> */}
                 </a>
               </Link>
               {/* </li> */}

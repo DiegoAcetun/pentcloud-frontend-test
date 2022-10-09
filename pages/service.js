@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import NavBar from "../components/NavBar";
-export default function services() {
+export default function service() {
   return (
     <>
       <Layout>

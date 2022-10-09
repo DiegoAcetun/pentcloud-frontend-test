@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import NavBar from "../components/NavBar";
-export default function contact() {
+export default function Contact() {
   return (
     <>
       <Layout>

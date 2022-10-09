@@ -13,3 +13,9 @@ export default function handler(req, res) {
     }
   }
 }
+
+{
+  movies.map((movie) => {
+    return null;
+  });
+}
