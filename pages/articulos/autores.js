@@ -5,8 +5,7 @@ import Card from "../../components/Card";
 export default function ArticulosAutores({ autores, articulos }) {
   function buscarArticulos(nombreAutor) {
     // console.log("entrando");
-    const articulosEncontrados = articulos.filter(
-      (articulo) => articulo.author.name === nombreAutor
+    const articulosEncontrados = articulos.filter((articulo) => articulo.author.name === nombreAutor
     );
     // console.log("articulo", articuloEncontrados);
     if (articulosEncontrados.length > 0) {
