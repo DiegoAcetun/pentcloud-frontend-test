@@ -3,7 +3,7 @@ import Link from "next/link";
 // import { useRouter } from "next/router";
 import { useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
-import logo from "../images/descarga.png";
+import logo from "../../images/descarga.png";
 export default function NavBar({ paginaActual }) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);

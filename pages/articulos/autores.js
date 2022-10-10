@@ -1,7 +1,6 @@
 import axios from "axios";
-import Layout from "../../components/Layout";
-import NavBar from "../../components/NavBar";
-import Card from "../../components/Card";
+import Layout from "../../components/moleculas/Layout";
+import Card from "../../components/atomos/articulos/Card";
 export default function ArticulosAutores({ autores, articulos }) {
   function buscarArticulos(nombreAutor) {
     // console.log("entrando");
