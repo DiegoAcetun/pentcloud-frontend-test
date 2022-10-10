@@ -1,11 +1,12 @@
 import Layout from "../components/moleculas/Layout";
 import NavBar from "../components/moleculas/NavBar";
+import Main from "../components/moleculas/contact/Main";
 export default function Contact() {
   return (
     <>
       <Layout>
         <NavBar paginaActual={"contact"} />
-        <p className="text-2xl text-white">contact</p>
+        <Main />
       </Layout>
     </>
   );

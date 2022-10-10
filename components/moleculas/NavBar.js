@@ -34,7 +34,7 @@ export default function NavBar({ paginaActual }) {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="text-3xl border-2 border-red-500 rounded-lg md:hidden"
+            className="text-3xl rounded-lg md:hidden"
             onClick={() => {
               handleClick();
             }}

@@ -6,7 +6,9 @@ export default function service() {
     <>
       <Layout>
         <NavBar paginaActual={"service"} />
-        <Main />
+        <div className="md:mx-16 mx-4">
+          <Main />
+        </div>
       </Layout>
     </>
   );

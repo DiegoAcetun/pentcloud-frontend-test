@@ -1,11 +1,13 @@
 export default function Main(){
   return (
     <>
-      <div className="grid grid-cols-2 my-auto md:mx-20 gap-x-32">
+      <div className="grid md:grid-cols-2 my-auto md:mx-20 gap-x-32">
         <div className="">
-          <p className="mt-20 md:text-6xl text-white">Nuestra Historia</p>
+          <p className="md:mt-20 mt-10 md:text-6xl text-4xl text-white">
+            Nuestra Historia
+          </p>
           {/* <p className="mt-5 md:text-6xl text-white">THE WORLD</p> */}
-          <p className="md:mt-10 leading-8 mb-10 text-lg">
+          <p className="md:mt-10 mt-5 leading-8 mb-10 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum
             lorem, bibendum ut lectus sit amet, maximus hendrerit neque.
             Maecenas tempus dolor semper convallis semper. Nullam magna eros,
@@ -20,9 +22,11 @@ export default function Main(){
           </p>
         </div>
         <div className="">
-          <p className="mt-20 md:text-6xl text-white">Nuestra Mision</p>
+          <p className="md:mt-20 mt-10 md:text-6xl text-white text-4xl">
+            Nuestra Mision
+          </p>
           {/* <p className="mt-5 md:text-6xl text-white">THE WORLD</p> */}
-          <p className="md:mt-10 leading-8 mb-10 text-lg">
+          <p className="md:mt-10 leading-8 mb-5 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum
             lorem, bibendum ut lectus sit amet, maximus hendrerit neque.
             Maecenas tempus dolor semper convallis semper. Nullam magna eros,
