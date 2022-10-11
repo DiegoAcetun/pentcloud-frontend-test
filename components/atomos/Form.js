@@ -55,7 +55,7 @@ export default function Form() {
 
           <label
             htmlFor="message"
-            className="block mb-2 text-xl font-medium text-gray-900 dark:text-gray-400"
+            className="block mb-2 text-xl font-medium text-white"
           >
             Su mensaje
           </label>

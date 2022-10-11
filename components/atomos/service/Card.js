@@ -5,7 +5,7 @@ export default function Card({icono, titulo}){
         {/* <figure>
           <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
         </figure> */}
-        <div className="text-9xl text-blue-200 flex justify-center">
+        <div className="text-9xl text-dark flex justify-center">
           {icono}
         </div>
         <div className="card-body p-0">

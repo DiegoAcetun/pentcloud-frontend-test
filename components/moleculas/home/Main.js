@@ -10,7 +10,7 @@ export default function Main() {
             Explore
           </p>
           <p className="mt-5 sm:text-2xl md:text-6xl text-white">THE WORLD</p>
-          <p className="md:mt-10 mt-5 leading-8 mb-10 md:text-xl">
+          <p className="md:mt-10 mt-5 leading-8 mb-10 md:text-xl text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
             dolore amet, ea odit aliquid placeat corporis vitae delectus!
             Dolorum nulla deserunt natus atque nostrum ad assumenda modi labore

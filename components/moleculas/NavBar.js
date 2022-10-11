@@ -10,7 +10,7 @@ export default function NavBar({ paginaActual }) {
   const menuRef = useRef(null);
   return (
     <>
-      <div className="navbar bg-transparent p-0">
+      <div className="navbar bg-transparent p-0 text-white">
         <div className="flex-1 md:mx-16 p-0">
           <a className="btn btn-ghost normal-case text-xl hover:bg-transparent">
             <Image
