@@ -16,7 +16,7 @@ export default function Main() {
             Dolorum nulla deserunt natus atque nostrum ad assumenda modi labore
             ex in!
           </p>
-          <Button text={"GET STARTED"} evento={()=>router.push("/service")}/>
+          <Button text={"GET STARTED"} evento={()=>router.push("/articulos")}/>
         </div>
       </div>
     </>
