@@ -3,15 +3,11 @@ import Link from "next/link";
 // import { useRouter } from "next/router";
 import { useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
-import logo from "../../images/descarga.png";
+// import logo from "../../images/descarga.png";
+import logo from "../../public/logo.png";
 export default function NavBar({ paginaActual }) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
-  const handleClick = () => {
-    // menuRef.current.classList.toggle("hidden");
-    setIsOpen(!isOpen);
-    console.log("The a was clicked.");
-  };
   return (
     <>
       <div className="navbar bg-transparent p-0">
@@ -20,12 +16,11 @@ export default function NavBar({ paginaActual }) {
             <Image
               src={logo}
               alt="Picture of the author"
-              // className="rounded-full max-w-0"
-              width={150}
-              height={40}
+              width={140}
+              height={50}
+
               priority={true}
-              // layout="responsive"
-              // objectFit="cover"
+
             />
           </a>
         </div>
@@ -36,7 +31,7 @@ export default function NavBar({ paginaActual }) {
             type="button"
             className="text-3xl rounded-lg md:hidden"
             onClick={() => {
-              handleClick();
+              setIsOpen(!isOpen);
             }}
           >
             <FaBars size="30" />
@@ -44,12 +39,10 @@ export default function NavBar({ paginaActual }) {
 
           <div className={(isOpen ? "" : "hidden ") + "md:block"} ref={menuRef}>
             <ul className="text-2xl text-center menu md:menu-horizontal md:mx-16">
-              {/* <li className="p-3 text-2xl border-4 border-green-600 rounded-full"> */}
               <Link href="/">
-                {/* //border-white rounded-full */}
                 <a
                   className={
-                    (paginaActual === "home" ? "border border-white " : "") +
+                    (paginaActual === "home" ? "border-2 border-white " : "") +
                     "py-1 px-3 hover:bg-black hover:cursor-pointer rounded-full"
                   }
                 >
@@ -59,7 +52,7 @@ export default function NavBar({ paginaActual }) {
               <Link href="/about" about>
                 <a
                   className={
-                    (paginaActual === "about" ? "border border-white " : "") +
+                    (paginaActual === "about" ? "border-2 border-white " : "") +
                     "py-1 px-3 hover:bg-black hover:cursor-pointer rounded-full"
                   }
                 >
@@ -69,7 +62,7 @@ export default function NavBar({ paginaActual }) {
               <Link href="/service">
                 <a
                   className={
-                    (paginaActual === "service" ? "border border-white " : "") +
+                    (paginaActual === "service" ? "border-2 border-white " : "") +
                     "py-1 px-3 hover:bg-black hover:cursor-pointer rounded-full"
                   }
                 >
@@ -80,19 +73,15 @@ export default function NavBar({ paginaActual }) {
               <Link href="/contact">
                 <a
                   className={
-                    (paginaActual === "contact" ? "border border-white " : "") +
+                    (paginaActual === "contact" ? "border-2 border-white " : "") +
                     "py-1 px-3 hover:bg-black hover:cursor-pointer rounded-full"
                   }
                 >
                   <p>Contact</p>
-                  {/* <p>Contact</p> */}
+
                 </a>
               </Link>
-              {/* </li> */}
-              {/* <li tabIndex={0}>
-                <a>Item 2</a>
-                <a>Item 3</a>
-              </li> */}
+
             </ul>
           </div>
         </div>

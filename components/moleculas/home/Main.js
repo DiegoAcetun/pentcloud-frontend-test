@@ -1,5 +1,7 @@
+import { useRouter } from "next/router";
 import Button from "../../atomos/Button";
 export default function Main() {
+  const router = useRouter();
   return (
     <>
       <div className="grid grid-cols-2 my-auto">
@@ -14,7 +16,7 @@ export default function Main() {
             Dolorum nulla deserunt natus atque nostrum ad assumenda modi labore
             ex in!
           </p>
-          <Button text={"GET STARTED"} />
+          <Button text={"GET STARTED"} evento={()=>router.push("/service")}/>
         </div>
       </div>
     </>

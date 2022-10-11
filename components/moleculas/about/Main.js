@@ -1,8 +1,8 @@
 export default function Main(){
   return (
     <>
-      <div className="grid md:grid-cols-2 my-auto md:mx-20 gap-x-32">
-        <div className="">
+      <div className="grid md:grid-cols-2 my-auto md:mx-16 mx-4 gap-x-32">
+        <div>
           <p className="md:mt-20 mt-10 md:text-6xl text-4xl text-white">
             Nuestra Historia
           </p>
@@ -26,7 +26,7 @@ export default function Main(){
             Nuestra Mision
           </p>
           {/* <p className="mt-5 md:text-6xl text-white">THE WORLD</p> */}
-          <p className="md:mt-10 leading-8 mb-5 text-lg">
+          <p className="md:mt-10 leading-8 mb-5 mt-5 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum
             lorem, bibendum ut lectus sit amet, maximus hendrerit neque.
             Maecenas tempus dolor semper convallis semper. Nullam magna eros,
