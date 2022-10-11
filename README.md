@@ -14,4 +14,4 @@ Se utilizaron las siguientes librerías para el desarrollo de los componentes:
 
 ___
 
-# https://pentcloud-frontend-test-v46l.vercel.app/
+# https://pentcloud-frontend-test.vercel.app/
