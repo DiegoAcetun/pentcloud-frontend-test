@@ -92,7 +92,6 @@ export default function Main({ articulos, autores, categorias }) {
   function listar() {
     return (
       <div className="text-white text-center container mx-auto">
-        <p className="text-3xl">Articulos agrupados por categoria</p>
         <div className="flex flex-wrap justify-center items-center text-center">
           {articulos.map((articulo) => {
             return (
